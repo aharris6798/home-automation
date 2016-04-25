@@ -9,7 +9,7 @@ class RBG_Led:
         self.__board = gpio_object
 
 
-        self.__setup_pins(self)
+        self.__setup_pins(self):
 
     def __setup_pins()
         if not self.__pwm:
