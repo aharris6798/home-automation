@@ -1,5 +1,5 @@
 
-class RBG_Led: 
+class RGB_Led: 
     def __init__(self, gpio_object, r, g, b, pwm = False):    
         self.__pwm = pwm
         self.__red.pin = r
