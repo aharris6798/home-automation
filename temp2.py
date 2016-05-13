@@ -42,5 +42,5 @@ class Temperature:
 	
 if __name__ == '__main__':
     temp_sensor = Temperature()
-    print('Temperature = ' + str(int(temp_sensor.C)) + ' degrees celcius')
+    print('The current temperature is ' + str(int(temp_sensor.C)) + ' degrees celcius')
 
