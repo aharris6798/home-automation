@@ -1,5 +1,5 @@
 import RPi.GPIO as gpio
-import board
+from board import Board
 
 class Buzzer:
     
@@ -15,7 +15,7 @@ class Buzzer:
         self.board.output(buzzerPin, LOW)
 
 if __name__ == "__main__":
-    gpio.setmode(gpio.BOARD)
-    buzzerPin = 38
+    gpio.setmode(gpio.BCM)
+    buzzerPin = 24
     board = Board()
     Buzzer(buzzerPin, board)
